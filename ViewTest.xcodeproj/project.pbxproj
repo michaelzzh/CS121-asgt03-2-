@@ -19,6 +19,7 @@
 		5B4BF15C19C11C4E00B22E5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4BF14419C11C4E00B22E5B /* UIKit.framework */; };
 		5B4BF16419C11C4E00B22E5B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B4BF16219C11C4E00B22E5B /* InfoPlist.strings */; };
 		5B4BF16619C11C4E00B22E5B /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4BF16519C11C4E00B22E5B /* ViewTestTests.m */; };
+		5B4BF17119C11CD600B22E5B /* ZZSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4BF17019C11CD600B22E5B /* ZZSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		5B4BF16119C11C4E00B22E5B /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		5B4BF16319C11C4E00B22E5B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B4BF16519C11C4E00B22E5B /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		5B4BF16F19C11CD600B22E5B /* ZZSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZSimpleView.h; sourceTree = "<group>"; };
+		5B4BF17019C11CD600B22E5B /* ZZSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				5B4BF14F19C11C4E00B22E5B /* ZZAppDelegate.h */,
 				5B4BF15019C11C4E00B22E5B /* ZZAppDelegate.m */,
+				5B4BF16F19C11CD600B22E5B /* ZZSimpleView.h */,
+				5B4BF17019C11CD600B22E5B /* ZZSimpleView.m */,
 				5B4BF15219C11C4E00B22E5B /* Images.xcassets */,
 				5B4BF14719C11C4E00B22E5B /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4BF17119C11CD600B22E5B /* ZZSimpleView.m in Sources */,
 				5B4BF15119C11C4E00B22E5B /* ZZAppDelegate.m in Sources */,
 				5B4BF14D19C11C4E00B22E5B /* main.m in Sources */,
 			);
